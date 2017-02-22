@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EthOSMonitor</string>
+    <string name="send">Send</string>
+    <string name="condition">Condition:</string>
+    <string name="miner">Miner:</string>
+    <string name="gpu_temperatures">GPU Temperatures:</string>
+    <string name="miner_hashes">Miner Hashes:</string>
+    <string name="ip">IP:</string>
+    <string name="info">Info:</string>
+    <string name="rig_info">"Info: "</string>
+</resources>

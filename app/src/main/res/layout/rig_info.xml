@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/condition"
+        android:id="@+id/condition"
+        android:textSize="16dp" />
+
+    <TextView
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/miner"
+        android:id="@+id/miner"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gpu_temperatures"
+        android:id="@+id/gputemp"
+        android:textSize="16dp"
+        />
+
+    <TextView
+
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/miner_hashes"
+        android:id="@+id/miner_hashes"
+        android:textSize="16dp"/>
+
+
+    <TextView
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ip"
+        android:id="@+id/ip"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:id="@+id/mem_info"
+        android:textSize="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+</LinearLayout>
